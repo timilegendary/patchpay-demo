@@ -19,3 +19,9 @@ claim an issue, open a real pull request, and get it merged during the demo.
 ```bash
 python -m pytest
 ```
+ ## Usage
+
+  ```python
+  >>> from slugify import slugify
+  >>> slugify("Hello, World!")
+  'hello-world'
